@@ -30,3 +30,6 @@ export default async function Page(props: { params: Promise<{ id: string }> }) {
     </main>
   );
 }
+export const metadata: Metadata = {
+  title: "Edit Invoices",
+};

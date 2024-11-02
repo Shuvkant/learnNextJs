@@ -41,3 +41,6 @@ export default async function Page(props: {
     </div>
   );
 }
+export const metadata: Metadata = {
+  title: "Invoices",
+};
